@@ -244,6 +244,7 @@ a:hover {
   text-decoration: none;
   background-color: #d80333;
 }
+.dropdown-item { color: #565656;}
 
 /* Other styles for the page not related to the animated dropdown */
 
@@ -253,6 +254,31 @@ a:hover {
   border-radius: 1em;
   min-height: 3.4em;
   padding-left: 2em;
+}
+
+#jobForm .form-control, #jobForm .custom-select {
+  background: #edeff1;
+  border: 0;
+  border-radius: 2em;
+  min-height: 3.4em;
+  padding-left: 2em;
+}
+#jobForm label.custom-file-label {
+  background: #edeff1;
+  border: 0;
+  border-radius: 2em;
+  min-height: 3.4em;
+  padding-left: 2em;
+  line-height: 2.5em;
+}
+
+#jobForm .custom-file-label::after {
+  line-height: 2em;
+  background: #121d5d;
+  color: #fff;
+  padding: 12px 45px;
+  min-height: 3.4em;
+  border-radius: 2em;
 }
 
 /* Particals */
@@ -628,6 +654,7 @@ canvas {
   .navbar-nav li.nav-item:nth-child(odd) { background: #f9f9f9;}
   .navbar-nav li.nav-item { text-align: center;}
   .circles {padding: 0;}
+  .navbar .navbar-collapse { overflow-y: auto;  -webkit-overflow-scrolling:touch; /* mobile safari */}
 
  }
 

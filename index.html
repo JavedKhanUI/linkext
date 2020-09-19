@@ -21,11 +21,8 @@
         <!-- <link href="css/styles.css" rel="stylesheet" /> -->
         <link rel="stylesheet" href="css/style.css">
     </head>
-
-    <style>
-    </style>
     <body id="page-top">
-        <!-- Navigation-->
+           <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow" id="mainNav">
             <div class="container">
                 <a class="navbar-brand p-0" href="index.html"><img src="assets/img/mim-logo.svg" alt="Myinboxmedia" class="img-fluid" width="150px"></a>
@@ -43,28 +40,28 @@
                         <div class="dropdown-menu dropdown-menu-left animate slideIn border-0 shadow mt-2" aria-labelledby="servicesDropdown">
                         <div class="d-md-flex align-items-start justify-content-start">
                           <div>
-                              <div class="dropdown-header">A2P SMS</div>
+                              <div class="dropdown-header font-weight-bold text-blue">A2P SMS</div>
                               <a class="dropdown-item" href="#">OTP SMS</a>
                               <a class="dropdown-item" href="#">Transactional SMS</a>
                               <a class="dropdown-item" href="#">Promotional SMS</a>
                           </div>
                           <div>   
-                              <div class="dropdown-header">ChatBots</div>
+                              <div class="dropdown-header font-weight-bold text-blue">ChatBots</div>
                               <a class="dropdown-item" href="#">WebBots</a>
                               <a class="dropdown-item" href="#">AppBots</a>
                           </div>
                           <div>
-                              <div class="dropdown-header">Email Services</div>
+                              <div class="dropdown-header font-weight-bold text-blue">Email Services</div>
                               <a class="dropdown-item" href="#">Transactional emails</a>
                               <a class="dropdown-item" href="#">Promotional emails</a>
                           </div>
                           <div>   
-                              <div class="dropdown-header">IVR Services</div>
+                              <div class="dropdown-header font-weight-bold text-blue">IVR Services</div>
                               <a class="dropdown-item" href="#">Incoming calls</a>
                               <a class="dropdown-item" href="#">Out Bound Calls</a>
                              </div>
                              <div>
-                              <div class="dropdown-header">Longcode</div>
+                              <div class="dropdown-header font-weight-bold text-blue">Longcode</div>
                               <a class="dropdown-item" href="#">Shared</a>
                               <a class="dropdown-item" href="#">Dedicated</a>
                              </div>
@@ -72,7 +69,7 @@
                          <div class="dropdown-divider"></div>
                          <div class="d-md-flex align-items-start justify-content-start">
                           <div>
-                              <div class="dropdown-header">EMIM</div>
+                              <div class="dropdown-header font-weight-bold text-blue">EMIM</div>
                               <a class="dropdown-item" href="#">Smart SMS</a>
                               <a class="dropdown-item" href="#">Link Shortener</a>
                               <a class="dropdown-item" href="#">Link tracking</a>
@@ -83,7 +80,7 @@
                               <a class="dropdown-item" href="#">SMS redirect QR code</a>
                           </div>
                           <div>
-                            <div class="dropdown-header">Softwares/Applications</div>
+                            <div class="dropdown-header font-weight-bold text-blue">Softwares/Applications</div>
                             <a class="dropdown-item" href="#">ERP</a>
                             <a class="dropdown-item" href="#">SAP</a>
                             <a class="dropdown-item" href="#">Dealer Management System</a>
@@ -94,7 +91,7 @@
                             <a class="dropdown-item" href="#">API's Integrations & Development</a>
                            </div>
                            <div>
-                              <div class="dropdown-header">DLT</div>
+                              <div class="dropdown-header font-weight-bold text-blue">DLT</div>
                               <a class="dropdown-item" href="#">Registrations</a>
                               <a class="dropdown-item" href="#">Enrolment</a>
                               <a class="dropdown-item" href="#">Sender ID approval</a>
@@ -113,7 +110,7 @@
                           <a class="dropdown-item" href="#">Case Studies</a>
                         </div>
                     </li>
-                    <li class="nav-item px-2"><a href="#" class="nav-link">Work With Us</a></li>
+                    <li class="nav-item px-2"><a href="work-withus.html" class="nav-link">Work With Us</a></li>
                     <li class="nav-item px-2"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
                 </ul>
                 <div class="navbar-nav ml-auto my-2 my-lg-0">
@@ -1228,6 +1225,31 @@
             //   document.dispatchEvent(fauxClick);
             // }
         </script>
+        <script>
+            var navbarHeaderHeight = 0;
+                var navbarCollpaseHeight = 0;
+                function calcCss() {
+                    navbarBrandHeight = $('.navbar .navbar-brand').outerHeight();
+                    navbarTogglerHeight = $('.navbar .navbar-toggler').outerHeight();
+                    if(navbarBrandHeight > navbarTogglerHeight || navbarBrandHeight == navbarTogglerHeight) {
+                        navbarHeaderHeight = navbarBrandHeight + 'px';
+                    }
+                    else {
+                        navbarHeaderHeight = navbarTogglerHeight + 'px';
+                    }
+                }
 
+                function setCss() {
+                $('.navbar .navbar-collapse').css('max-height', 'calc(100vh - '+ navbarHeaderHeight+')');
+                }
+
+                calcCss();
+                setCss();
+
+                $(window).resize(function() {
+                calcCss();
+                setCss();
+                });
+        </script>
     </body>
 </html>
