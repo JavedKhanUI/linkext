@@ -82,6 +82,7 @@ a:hover {
 .page-section {
   padding: 8rem 0;
 }
+
 /* 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -245,6 +246,14 @@ a:hover {
 }
 
 /* Other styles for the page not related to the animated dropdown */
+
+#contactForm input, #contactForm textarea {
+  background: #e8e9ea;
+  border: 0;
+  border-radius: 1em;
+  min-height: 3.4em;
+  padding-left: 2em;
+}
 
 /* Particals */
 
