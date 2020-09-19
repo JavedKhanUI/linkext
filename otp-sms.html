@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Linkext - OTP SMS</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <style>
+    </style>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand p-0" href="index.html"><img src="assets/img/mim-logo.svg" alt="Myinboxmedia" class="img-fluid" width="150px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#" class="nav-link mr-3 my-2 p-0">About Us</a></li>
+                    <li class="nav-item dropdown my-2 mr-0 mr-lg-4 p-2 p-lg-0">
+                        <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu animate slideIn border-0 shadow" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="url-shortner.html">URL Shortner</a>
+                          <a class="dropdown-item" href="qr-code.html">QR Code</a>
+                          <a class="dropdown-item" href="otp-sms.html">OTP SMS</a>
+                          <a class="dropdown-item" href="sms-api.html">SMS API</a>
+                          <a class="dropdown-item" href="smart-sms.html">Smart SMS</a>
+                          <a class="dropdown-item" href="forms.html">Forms</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown my-2 mr-0 mr-lg-4 p-2 p-lg-0">
+                        <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Clients
+                        </a>
+                        <div class="dropdown-menu animate slideIn border-0 shadow" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Client List</a>
+                          <a class="dropdown-item" href="#">Case Studies</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link mr-3 my-2 p-0">Work With Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link mr-3 my-2 p-0">Contact Us</a></li>
+                </ul>
+                <div class="navbar-nav ml-auto my-2 my-lg-0">
+                    <li class="nav-item"><a href="#" class="nav-link mr-3 my-2 p-0">Login</a></li>
+                    <li class="nav-item"><a href="#" class="btn btn-primary btn-pill btn-shadow">Try Linkext</a></li>
+                </div>
+                </div>
+             </div>
+          </nav>
+          <!--  -->
+   <header>
+        <!-- Masthead-->
+        <div class="masthead min-head" id="js-header">
+          <div class="area" >
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div >
+            <div class="container h-100 core">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-12 align-self-end d-none">
+                        <h1 class="text-white font-weight-bold mt-5 pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio at eligendi iure. Ipsa quas deleniti illum dolorem culpa blanditiis</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <div class="row">
+                            <div class="col-12 mt-3">
+                            <p class="text-white font-weight-light mt-5 pt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, ad autem laborum fugiat, nesciunt recusandae quis expedita omnis quisquam</p>
+                                <form class="d-block your-link position-relative">
+                                    <input class="form-control form-control-lg mr-sm-2" type="text" placeholder="https://yourlink.com" aria-label="Search">
+                                    <button class="btn btn-primary my-sm-0 btn-xl linkcreate-btn" type="submit">Linkext</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+    </header>
+    
+        <!--  -->
+
+        <section class="py-5" id="feature-1">
+            <div class="container">
+                <div class="row mt-5 align-items-start justify-content-start h-100">
+                    <div class="col-lg-6 align-self-start">
+                        <img src="assets/graphic/Tabs-amico.svg" alt="OTP SMS" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="font-weight-bold text-blue h1 mb-4">OTP <span class="text-red">SMS</span></h4>
+                        <p>Si sine causa? quae fuerit causa, mox videro; interea hoc epicurus in sanguinem suum tam inportuno tamque crudeli; sin, ut summum malum et, quantum possit, a natura incorrupte atque corrupti, quos tu paulo ante cum soluta nobis est cur verear, ne ad naturam aut fugit.
+                            Certe, inquam, pertinax non possim accommodare torquatos nostros? quos dolores eos, qui studiose antiqua persequeris, claris et fortibus viris commemorandis eorumque factis non intellegamus, tu paulo ante cum memoriter, tum etiam erga nos causae confidere, sed quia non numquam eius modi tempora incidunt, ut et.
+                            In quo minus id, quod omnium philosophorum sententia tale debet esse, ut summum bonum sit extremum et harum quidem se repellere, idque instituit docere sic: omne animal, simul atque insitam in malis dolor, non recusandae itaque negat opus esse expetendam et caritatem, quae ab eo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--  -->
+        <section class="py-5" id="feature-4">
+            <div class="container">
+                <div class="row pb-5">
+                    <div class="col-lg-8">
+                        <h4 class="text-blue font-weight-bold h1">Deation & Evaluation - Best Way<br> <span class="text-red"> to Kick off Your Product Idea </span></h4>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <a href="url-shortner.html">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body">
+                                <h5 class="card-title text-blue font-weight-bold">URL <span class="text-red">Shortner</span></h5>
+                                <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="font-weight-bold">Read More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-4">
+                        <a href="qr-code.html">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title text-blue font-weight-bold">QR <span class="text-red">Code</span></h5>
+                                <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="font-weight-bold">Read More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-4">
+                        <a href="sms-api.html">
+                            <div class="card h-100 border-0 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title text-blue font-weight-bold">SMS <span class="text-red">API</span></h5>
+                                <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="font-weight-bold">Read More</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col mb-4">
+                        <a href="smart-sms.html">
+                            <div class="card h-100 border-0 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title text-blue font-weight-bold">Smart <span class="text-red">SMS</span></h5>
+                                <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="font-weight-bold">Read More</a>
+                            </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="col mb-4">
+                        <a href="forms.html">
+                            <div class="card h-100 border-0 shadow">
+                            <div class="card-body">
+                                <h5 class="card-title text-blue font-weight-bold">Forms</h5>
+                                <p class="card-text text-dark">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="#" class="font-weight-bold">Read More</a>
+                            </div>
+                            </div>
+                         </a>
+                      </div>
+                  </div>
+            </div>
+        </section>
+
+
+        <!--  -->
+
+        <section class="py-5">
+            <div class="container">
+              <div class="row pb-5">
+                    <div class="col-lg-12 text-center">
+                        <h4 class="text-blue font-weight-bold h1">Happy <span class="text-red"> Clients</span></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 align-self-end">
+                        <!--  -->
+                        <div class="gtco-testimonials">
+                            <!-- <h2>Testimonials</h2> -->
+                            <div class="owl-carousel owl-carousel1 owl-theme">
+                              <div>
+                                <div class="card text-center shadow">
+                                    <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt=""> -->
+                                  <div class="card-body">
+                                    <h5>Ronne Galle <br />
+                                      <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                      <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                      <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                      <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                      <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                    </h5>
+                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                      impedit quo minus id quod maxime placeat ” </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="card text-center shadow">
+                                    <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt=""> -->
+                                  <div class="card-body">
+                                    <h5>Missy Limana<br />
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                    </h5>
+                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                      impedit quo minus id quod maxime placeat ” </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="card text-center shadow">
+                                    <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt=""> -->
+                                  <div class="card-body">
+                                    <h5>Martha Brown<br />
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                    </h5>
+                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                      impedit quo minus id quod maxime placeat ” </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="card text-center shadow">
+                                    <!-- <img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt=""> -->
+                                  <div class="card-body">
+                                    <h5>Hanna Lisem<br />
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                        <span><img src="assets/icons/star-solid.svg" alt="star"></span>
+                                    </h5>
+                                    <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                      impedit quo minus id quod maxime placeat ” </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  -->
+
+        <section class="py-4 bg-light" id="action">
+            <div class="container bg-light">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card border-0 bg-light">
+                            <div class="card-body">
+                                <h4 class="text-blue font-weight-bold h1">Let’s make something <br> <span class="text-red">amazing together.</span></h4>
+                                <a href="#" class="btn btn-primary btn-pill mt-3 py-2 px-4 btn-shadow">Let’s Get Started <img src="assets/icons/arrow.svg" alt="read-more" width="20px"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!--  -->
+        <footer class="position-relative pb-4 bg-blue" id="bottom-info">
+            <div class="area" >
+              <ul class="circles">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+              </ul>
+          </div >
+            <div class="container">
+              <div class="row pt-4">
+                <div class="col-lg-6">
+                    <p class="text-white font-weight-bold">Phone</p>
+                    <p class="text-white">+966-536449741</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-white font-weight-bold">Address</p>
+                    <p class="text-white">FIEE Complex, A-36, Second Floor, Okhla Phase II, <br> New Delhi, Delhi 110020</p>
+                </div>
+            </div>
+            <hr class="bg-white">
+                <div class="row row-cols-1 row-cols-md-4">
+                    <div class="col mb-4">
+                      <div class="card border-0 bg-transparent text-white">
+                        <div class="card-body p-0">
+                          <h5 class="card-title">Services</h5>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent pl-0">Cras justo odio</li>
+                            <li class="list-group-item bg-transparent pl-0">Dapibus ac facilisis in</li>
+                            <li class="list-group-item bg-transparent pl-0">Morbi leo risus</li>
+                            <li class="list-group-item bg-transparent pl-0">Porta ac consectetur ac</li>
+                            <li class="list-group-item bg-transparent pl-0">Vestibulum at eros</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card border-0 bg-transparent text-white">
+                        <div class="card-body p-0">
+                          <h5 class="card-title">Help And Advice</h5>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent pl-0">Cras justo odio</li>
+                            <li class="list-group-item bg-transparent pl-0">Dapibus ac facilisis in</li>
+                            <li class="list-group-item bg-transparent pl-0">Morbi leo risus</li>
+                            <li class="list-group-item bg-transparent pl-0">Porta ac consectetur ac</li>
+                            <li class="list-group-item bg-transparent pl-0">Vestibulum at eros</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card border-0 bg-transparent text-white">
+                        <div class="card-body p-0">
+                          <h5 class="card-title">Company</h5>
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-transparent pl-0">Cras justo odio</li>
+                            <li class="list-group-item bg-transparent pl-0">Dapibus ac facilisis in</li>
+                            <li class="list-group-item bg-transparent pl-0">Morbi leo risus</li>
+                            <li class="list-group-item bg-transparent pl-0">Porta ac consectetur ac</li>
+                            <li class="list-group-item bg-transparent pl-0">Vestibulum at eros</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card border-0 bg-transparent text-white">
+                        <div class="card-body p-0">
+                          <h5 class="card-title">Get in Touch</h5>
+                          <p class="card-text">Feel free to get in touch with us vai email</p>
+                          <a href="mailto:support@myinboxmedia.com" class="text-white font-weight-bold">support@myinboxmedia.com</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </footer>
+
+        <!-- Footer-->
+        <footer class="bg-white py-3">
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - MIM</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!-- stats.js lib --> 
+        <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
+        <script src="js/anime.js"></script>
+        <!--  -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!--  -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script>
+           // When the user scrolls down 50px from the top of the document, resize the header's font size
+            // window.onscroll = function() {scrollFunction()};
+
+            // function scrollFunction() {
+            //   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            //     document.getElementById("js-header").style.height = "30vh";
+            //   } else {
+            //     document.getElementById("js-header").style.height = "50vh";
+            //   }
+            // }
+        </script>
+
+        <!-- <script>
+         function resizeHeaderOnScroll() {
+            const distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 200,
+            headerEl = document.getElementById('js-header');
+            
+            if (distanceY > shrinkOn) {
+              headerEl.classList.add("smaller");
+            } else {
+              headerEl.classList.remove("smaller");
+            }
+          }
+
+          window.addEventListener('scroll', resizeHeaderOnScroll);
+
+        </script> -->
+
+        <script>
+             AOS.init();
+        </script>
+        <script>
+            //   particlesJS("particles-js", {
+            //     "particles": {
+            //         "number": {
+            //             "value": 43,
+            //             "density": {
+            //                 "enable": true,
+            //                 "value_area": 800
+            //             }
+            //         },
+            //         "color": {
+            //             "value": "#ffffff"
+            //         },
+            //         "shape": {
+            //             "type": "circle",
+            //             "stroke": {
+            //                 "width": 0,
+            //                 "color": "#000000"
+            //             },
+            //             "polygon": {
+            //                 "nb_sides": 4
+            //             },
+            //             "image": {
+            //                 "src": "img/github.svg",
+            //                 "width": 100,
+            //                 "height": 100
+            //             }
+            //         },
+            //         "opacity": {
+            //             "value": 0.5,
+            //             "random": false,
+            //             "anim": {
+            //                 "enable": false,
+            //                 "speed": 1,
+            //                 "opacity_min": 0.1,
+            //                 "sync": false
+            //             }
+            //         },
+            //         "size": {
+            //             "value": 3,
+            //             "random": true,
+            //             "anim": {
+            //                 "enable": false,
+            //                 "speed": 40,
+            //                 "size_min": 0.1,
+            //                 "sync": false
+            //             }
+            //         },
+            //         "line_linked": {
+            //             "enable": true,
+            //             "distance": 150,
+            //             "color": "#ffffff",
+            //             "opacity": 0.4,
+            //             "width": 1
+            //         },
+            //         "move": {
+            //             "enable": true,
+            //             "speed": 2,
+            //             "direction": "none",
+            //             "random": false,
+            //             "straight": false,
+            //             "out_mode": "out",
+            //             "bounce": false,
+            //             "attract": {
+            //                 "enable": false,
+            //                 "rotateX": 600,
+            //                 "rotateY": 1200
+            //             }
+            //         }
+            //     },
+            //     "interactivity": {
+            //         "detect_on": "canvas",
+            //         "events": {
+            //             "onhover": {
+            //                 "enable": true,
+            //                 "mode": "grab"
+            //             },
+            //             "onclick": {
+            //                 "enable": true,
+            //                 "mode": "remove"
+            //             },
+            //             "onresize": {
+            //                         "enable": true,
+            //                         "density_auto": true,
+            //                         "density_area": 400 // nb_particles = particles.nb * (canvas width *  canvas height / 1000) / density_area
+            //                     },
+            //             "resize": true
+            //         },
+            //         "modes": {
+            //             "grab": {
+            //                 "distance": 97.44926547616143,
+            //                 "line_linked": {
+            //                     "opacity": 1
+            //                 }
+            //             },
+            //             "bubble": {
+            //                 "distance": 400,
+            //                 "size": 40,
+            //                 "duration": 2,
+            //                 "opacity": 8,
+            //                 "speed": 3
+            //             },
+            //             "repulse": {
+            //                 "distance": 194.89853095232283,
+            //                 "duration": 0.4
+            //             },
+            //             "push": {
+            //                 "particles_nb": 4
+            //             },
+            //             "remove": {
+            //                 "particles_nb": 2
+            //             }
+            //         }
+            //     },
+            //     "retina_detect": true
+            // });
+            // var count_particles, stats, update;
+            // stats = new Stats;
+            // stats.setMode(0);
+            // stats.domElement.style.position = 'absolute';
+            // stats.domElement.style.left = '0px';
+            // stats.domElement.style.top = '0px';
+            // document.body.appendChild(stats.domElement);
+            // count_particles = document.querySelector('.js-count-particles');
+            // update = function() {
+            //     stats.begin();
+            //     stats.end();
+            //     // if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+            //     //     count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+            //     // }
+            //     requestAnimationFrame(update);
+            // };
+            // requestAnimationFrame(update);;
+        </script>
+
+        <script>stats.domElement.style.display = 'none' </script>
+        <script>
+            var owl = $('.owl-brands');
+                owl.owlCarousel({
+                    items:6,
+                    loop:true,
+                    margin:20,
+                    dots: false,
+                    autoplay:true,
+                    autoplayTimeout:2000,
+                    autoplayHoverPause:true,
+                    responsiveClass:true,
+                    responsive:{
+                        0:{
+                            items:2,
+                            nav:false
+                        },
+                        600:{
+                            items:3,
+                            nav:false
+                        },
+                        1000:{
+                            items:6,
+                            nav:false,
+                        }
+                    }
+                });
+                $('.play').on('click',function(){
+                    owl.trigger('play.owl.autoplay',[1000])
+                })
+                $('.stop').on('click',function(){
+                    owl.trigger('stop.owl.autoplay')
+                })
+            </script>
+            <script>
+                (function () {
+                    "use strict";
+
+                    var carousels = function () {
+                        $(".owl-carousel1").owlCarousel({
+                        loop: true,
+                        center: true,
+                        margin: 0,
+                        responsiveClass: true,
+                        nav: false,
+                        autoplay:true,
+                        autoplayTimeout:2000,
+                        autoplayHoverPause:true,
+                        responsive: {
+                            0: {
+                            items: 1,
+                            nav: false
+                            },
+                            680: {
+                            items: 2,
+                            nav: false,
+                            loop: false
+                            },
+                            1000: {
+                            items: 2,
+                            nav: true
+                            }
+                        }
+                        });
+                    };
+
+                    (function ($) {
+                        carousels();
+                    })(jQuery);
+                    })();
+            </script>
+
+        <script>
+//   function fitElementToParent(el, padding) {
+//   var timeout = null;
+//   function resize() {
+//     if (timeout) clearTimeout(timeout);
+//     anime.set(el, {scale: 1});
+//     var pad = padding || 0;
+//     var parentEl = el.parentNode;
+//     var elOffsetWidth = el.offsetWidth - pad;
+//     var parentOffsetWidth = parentEl.offsetWidth;
+//     var ratio = parentOffsetWidth / elOffsetWidth;
+//     timeout = setTimeout(anime.set(el, {scale: ratio}), 10);
+//   }
+//   resize();
+//   window.addEventListener('resize', resize);
+// }
+
+// var advancedStaggeringAnimation = (function() {
+
+//   var staggerVisualizerEl = document.querySelector('.stagger-visualizer');
+//   var dotsWrapperEl = staggerVisualizerEl.querySelector('.dots-wrapper');
+//   var dotsFragment = document.createDocumentFragment();
+//   var grid = [20, 10];
+//   var cell = 55;
+//   var numberOfElements = grid[0] * grid[1];
+//   var animation;
+//   var paused = true;
+  
+//   fitElementToParent(staggerVisualizerEl, 0);
+
+//   for (var i = 0; i < numberOfElements; i++) {
+//     var dotEl = document.createElement('div');
+//     dotEl.classList.add('dot');
+//     dotsFragment.appendChild(dotEl);
+//   }
+
+//   dotsWrapperEl.appendChild(dotsFragment);
+
+//   var index = anime.random(0, numberOfElements-1);
+//   var nextIndex = 0;
+
+//   anime.set('.stagger-visualizer .cursor', {
+//     translateX: anime.stagger(-cell, {grid: grid, from: index, axis: 'x'}),
+//     translateY: anime.stagger(-cell, {grid: grid, from: index, axis: 'y'}),
+//     translateZ: 0,
+//     scale: 1.5,
+//   });
+
+//   function play() {
+
+//     paused = false;
+//     if (animation) animation.pause();
+
+//     nextIndex = anime.random(0, numberOfElements-1);
+
+//     animation = anime.timeline({
+//       easing: 'easeInOutQuad',
+//       complete: play
+//     })
+//     .add({
+//       targets: '.stagger-visualizer .cursor',
+//       keyframes: [
+//         { scale: .75, duration: 120}, 
+//         { scale: 2.5, duration: 220},
+//         { scale: 1.5, duration: 450},
+//       ],
+//       duration: 300
+//     })
+//     .add({
+//       targets: '.stagger-visualizer .dot',
+//       keyframes: [
+//         {
+//           translateX: anime.stagger('-2px', {grid: grid, from: index, axis: 'x'}),
+//           translateY: anime.stagger('-2px', {grid: grid, from: index, axis: 'y'}),
+//           duration: 100
+//         }, {
+//           translateX: anime.stagger('4px', {grid: grid, from: index, axis: 'x'}),
+//           translateY: anime.stagger('4px', {grid: grid, from: index, axis: 'y'}),
+//           scale: anime.stagger([2.6, 1], {grid: grid, from: index}),
+//           duration: 225
+//         }, {
+//           translateX: 0,
+//           translateY: 0,
+//           scale: 1,
+//           duration: 1200,
+//         }
+//       ],
+//       delay: anime.stagger(80, {grid: grid, from: index})
+//     }, 30)
+//     .add({
+//       targets: '.stagger-visualizer .cursor',
+//       translateX: { value: anime.stagger(-cell, {grid: grid, from: nextIndex, axis: 'x'}) },
+//       translateY: { value: anime.stagger(-cell, {grid: grid, from: nextIndex, axis: 'y'}) },
+//       scale: 1.5,
+//       easing: 'cubicBezier(.075, .2, .165, 1)'
+//     }, '-=800')
+
+//     index = nextIndex;
+
+//   }
+
+//   play();
+
+// })();
+        </script>
+
+        <script>
+            // var c = document.getElementById("c");
+            // var ctx = c.getContext("2d");
+            // var cH;
+            // var cW;
+            // var bgColor = "#FF6138";
+            // var animations = [];
+            // var circles = [];
+
+            // var colorPicker = (function() {
+            //   var colors = ["#FF6138", "#FFBE53", "#2980B9", "#282741"];
+            //   var index = 0;
+            //   function next() {
+            //     index = index++ < colors.length-1 ? index : 0;
+            //     return colors[index];
+            //   }
+            //   function current() {
+            //     return colors[index]
+            //   }
+            //   return {
+            //     next: next,
+            //     current: current
+            //   }
+            // })();
+
+            // function removeAnimation(animation) {
+            //   var index = animations.indexOf(animation);
+            //   if (index > -1) animations.splice(index, 1);
+            // }
+
+            // function calcPageFillRadius(x, y) {
+            //   var l = Math.max(x - 0, cW - x);
+            //   var h = Math.max(y - 0, cH - y);
+            //   return Math.sqrt(Math.pow(l, 2) + Math.pow(h, 2));
+            // }
+
+            // function addClickListeners() {
+            //   document.addEventListener("touchstart", handleEvent);
+            //   document.addEventListener("mousedown", handleEvent);
+            // };
+
+            // function handleEvent(e) {
+            //     if (e.touches) { 
+            //       e.preventDefault();
+            //       e = e.touches[0];
+            //     }
+            //     var currentColor = colorPicker.current();
+            //     var nextColor = colorPicker.next();
+            //     var targetR = calcPageFillRadius(e.pageX, e.pageY);
+            //     var rippleSize = Math.min(200, (cW * .4));
+            //     var minCoverDuration = 750;
+                
+            //     var pageFill = new Circle({
+            //       x: e.pageX,
+            //       y: e.pageY,
+            //       r: 0,
+            //       fill: nextColor
+            //     });
+            //     var fillAnimation = anime({
+            //       targets: pageFill,
+            //       r: targetR,
+            //       duration:  Math.max(targetR / 2 , minCoverDuration ),
+            //       easing: "easeOutQuart",
+            //       complete: function(){
+            //         bgColor = pageFill.fill;
+            //         removeAnimation(fillAnimation);
+            //       }
+            //     });
+                
+            //     var ripple = new Circle({
+            //       x: e.pageX,
+            //       y: e.pageY,
+            //       r: 0,
+            //       fill: currentColor,
+            //       stroke: {
+            //         width: 3,
+            //         color: currentColor
+            //       },
+            //       opacity: 1
+            //     });
+            //     var rippleAnimation = anime({
+            //       targets: ripple,
+            //       r: rippleSize,
+            //       opacity: 0,
+            //       easing: "easeOutExpo",
+            //       duration: 900,
+            //       complete: removeAnimation
+            //     });
+                
+            //     var particles = [];
+            //     for (var i=0; i<32; i++) {
+            //       var particle = new Circle({
+            //         x: e.pageX,
+            //         y: e.pageY,
+            //         fill: currentColor,
+            //         r: anime.random(24, 48)
+            //       })
+            //       particles.push(particle);
+            //     }
+            //     var particlesAnimation = anime({
+            //       targets: particles,
+            //       x: function(particle){
+            //         return particle.x + anime.random(rippleSize, -rippleSize);
+            //       },
+            //       y: function(particle){
+            //         return particle.y + anime.random(rippleSize * 1.15, -rippleSize * 1.15);
+            //       },
+            //       r: 0,
+            //       easing: "easeOutExpo",
+            //       duration: anime.random(1000,1300),
+            //       complete: removeAnimation
+            //     });
+            //     animations.push(fillAnimation, rippleAnimation, particlesAnimation);
+            // }
+
+            // function extend(a, b){
+            //   for(var key in b) {
+            //     if(b.hasOwnProperty(key)) {
+            //       a[key] = b[key];
+            //     }
+            //   }
+            //   return a;
+            // }
+
+            // var Circle = function(opts) {
+            //   extend(this, opts);
+            // }
+
+            // Circle.prototype.draw = function() {
+            //   ctx.globalAlpha = this.opacity || 1;
+            //   ctx.beginPath();
+            //   ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+            //   if (this.stroke) {
+            //     ctx.strokeStyle = this.stroke.color;
+            //     ctx.lineWidth = this.stroke.width;
+            //     ctx.stroke();
+            //   }
+            //   if (this.fill) {
+            //     ctx.fillStyle = this.fill;
+            //     ctx.fill();
+            //   }
+            //   ctx.closePath();
+            //   ctx.globalAlpha = 1;
+            // }
+
+            // var animate = anime({
+            //   duration: Infinity,
+            //   update: function() {
+            //     ctx.fillStyle = bgColor;
+            //     ctx.fillRect(0, 0, cW, cH);
+            //     animations.forEach(function(anim) {
+            //       anim.animatables.forEach(function(animatable) {
+            //         animatable.target.draw();
+            //       });
+            //     });
+            //   }
+            // });
+
+            // var resizeCanvas = function() {
+            //   cW = window.innerWidth;
+            //   cH = window.innerHeight;
+            //   c.width = cW * devicePixelRatio;
+            //   c.height = cH * devicePixelRatio;
+            //   ctx.scale(devicePixelRatio, devicePixelRatio);
+            // };
+
+            // (function init() {
+            //   resizeCanvas();
+            //   if (window.CP) {
+            //     // CodePen's loop detection was causin' problems
+            //     // and I have no idea why, so...
+            //     window.CP.PenTimer.MAX_TIME_IN_LOOP_WO_EXIT = 6000; 
+            //   }
+            //   window.addEventListener("resize", resizeCanvas);
+            //   addClickListeners();
+            //   if (!!window.location.pathname.match(/fullcpgrid/)) {
+            //     startFauxClicking();
+            //   }
+            //   handleInactiveUser();
+            // })();
+
+            // function handleInactiveUser() {
+            //   var inactive = setTimeout(function(){
+            //     fauxClick(cW/2, cH/2);
+            //   }, 2000);
+              
+            //   function clearInactiveTimeout() {
+            //     clearTimeout(inactive);
+            //     document.removeEventListener("mousedown", clearInactiveTimeout);
+            //     document.removeEventListener("touchstart", clearInactiveTimeout);
+            //   }
+              
+            //   document.addEventListener("mousedown", clearInactiveTimeout);
+            //   document.addEventListener("touchstart", clearInactiveTimeout);
+            // }
+
+            // function startFauxClicking() {
+            //   setTimeout(function(){
+            //     fauxClick(anime.random( cW * .2, cW * .8), anime.random(cH * .2, cH * .8));
+            //     startFauxClicking();
+            //   }, anime.random(200, 900));
+            // }
+
+            // function fauxClick(x, y) {
+            //   var fauxClick = new Event("mousedown");
+            //   fauxClick.pageX = x;
+            //   fauxClick.pageY = y;
+            //   document.dispatchEvent(fauxClick);
+            // }
+        </script>
+
+    </body>
+</html>
